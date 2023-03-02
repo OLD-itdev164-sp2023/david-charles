@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog`,
+    title: `Loop Worx`,
     description: `ITDEV-164 Gatsby Blog`,
     author: `David Charles`,
     contact: {
@@ -26,6 +26,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options:{
+        spaceId: 'lgu5w45wo5dr',
+        accessToken: `wXT0SnNagMPKhdNDIwJ1rodnO9PiybXzj1QIoy9tQ9U`,
       },
     },
     `gatsby-transformer-sharp`,
