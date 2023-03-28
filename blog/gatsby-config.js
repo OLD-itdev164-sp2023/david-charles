@@ -6,12 +6,13 @@ module.exports = {
     title: `Loop Worx`,
     description: `ITDEV-164 Gatsby Blog`,
     author: `David Charles`,
+      siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
       name: `David Charles`,
-      company: 'Loop Worx',
+      company: `Loop Worx`,
       address: `PO Box 1234`
     },
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+  
   },
   plugins: [
     `gatsby-plugin-image`,
