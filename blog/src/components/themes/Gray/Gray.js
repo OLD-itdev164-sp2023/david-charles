@@ -6,7 +6,7 @@ const images = {
     mainHeaderImage
 }
 
-const icons - {
+const icons = {
     Search: <Search />
 }
 
