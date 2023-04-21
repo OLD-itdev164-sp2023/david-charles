@@ -6,7 +6,6 @@ import { Flex } from 'rebass'
 import { H1 } from '../Heading'
 import { Section } from '../Section'
 import { SearchButton } from '../Button'
-import { Search } from "styled-icons/feather"
 
 const Outer = styled.header`
   background: ${({ theme }) => theme.variants.header.primary.backgroundColor};
@@ -49,7 +48,7 @@ const MediaQuery = styled.div`
 
 const Header = ({ siteTitle }) => (
   <Outer>
-    <Inner>
+      
     <Section flex>
       <Section width={1/12}
        flex flexDirection="column" justifyContent="center">
@@ -72,7 +71,7 @@ const Header = ({ siteTitle }) => (
         </Nav>
       </Section>
       </Section>
-    </Inner>
+    
   </Outer>
 )
 
